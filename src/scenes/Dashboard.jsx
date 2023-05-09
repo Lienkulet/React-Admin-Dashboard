@@ -39,7 +39,7 @@ const Dashboard = () => {
       <Box
         display="grid"
         gridTemplateColumns="repeat(12, 1fr)"
-        gridAutoRows="140px"
+        gridAutoRows="130px"
         gap="20px"
       >
         {/* ROW 1 */}
@@ -217,7 +217,7 @@ const Dashboard = () => {
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
-          p="30px"
+          p="20px"
         >
           <Typography variant="h5" fontWeight="600">
             Campaign
@@ -259,7 +259,7 @@ const Dashboard = () => {
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
-          padding="30px"
+          padding="20px"
         >
           <Typography
             variant="h5"
